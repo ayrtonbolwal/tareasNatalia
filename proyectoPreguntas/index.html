@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Preguntas</title>
+</head>
+<body>
+    <main>
+        <div class="contenido">
+            <div class="pregunta1" id="pregunta1">
+                <form action="" id="formulario">
+                    <legend><span id="preguntaTexto"></span></legend>
+                    <br>
+                    <br>
+                    <input type="radio" id="nunca" name="opcion" value="nunca" required/>
+                    <label for="nunca">nunca</label>
+                    <br>
+                    <br>
+                    <input type="radio" id="ocasional" name="opcion" value="ocasional" required/>
+                    <label for="ocasional">ocasional</label>
+                    <br>
+                    <br>
+                    <input type="radio" id="general" name="opcion" value="general" required/>
+                    <label for="general">general</label>
+                    <br>
+                    <br>
+                    <input type="radio" id="siempre" name="opcion" value="siempre" required/>
+                    <label for="siempre">siempre</label>
+                </form>
+                <button id="siguiente" onclick="siguiente()">Siguiente</button>
+                <button id="enviar" onclick="enviar()">Enviar</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
